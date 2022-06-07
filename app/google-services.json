@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "466399463251",
+    "project_id": "giampiltdexample",
+    "storage_bucket": "giampiltdexample.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466399463251:android:906af5d56b0707524043a6",
+        "android_client_info": {
+          "package_name": "com.example.giampiltd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466399463251-lat4ir5cp3eolg1clrhhaldmsd7svbcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA77HssM6xkJprqBcdPbO0psfJ4jtoqtVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466399463251-lat4ir5cp3eolg1clrhhaldmsd7svbcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

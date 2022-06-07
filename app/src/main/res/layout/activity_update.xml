@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+    <EditText
+        android:id="@+id/input_name_upd"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/shoe_name_input"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_length_size_upd"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/shoe_length_input"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_number_size_upd" />
+
+    <EditText
+        android:id="@+id/input_outsole_material_upd"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/outsole_material_input"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_upper_material_upd" />
+
+    <Button
+        android:id="@+id/insertBtn_upd"
+        android:layout_width="215dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="97dp"
+        android:text="@string/save_btn_text"
+        android:backgroundTint="@color/teal_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_price_upd" />
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="215dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/delete_btn_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insertBtn_upd" />
+
+    <EditText
+        android:id="@+id/input_upper_material_upd"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/upper_material_input"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_length_size_upd" />
+
+    <EditText
+        android:id="@+id/input_number_size_upd"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/number_input"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_name_upd" />
+
+    <EditText
+        android:id="@+id/input_price_upd"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="76dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/price_input"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_outsole_material_upd" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

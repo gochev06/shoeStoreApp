@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">giampiLTD</string>
+    <string name="shoe_name_input">Име на обувката</string>
+    <string name="number_input">Размер (номер)</string>
+    <string name="shoe_length_input">Размер (см)</string>
+    <string name="upper_material_input">Материал на лицевата част</string>
+    <string name="outsole_material_input">Материал на ходилото</string>
+    <string name="color_input">Цвят</string>
+    <string name="save_btn_text">Запази</string>
+    <string name="gender_type_input">Тип (М/Ж)</string>
+    <string name="price_input">Цена</string>
+    <string name="add_str">Добави</string>
+    <string name="delete_btn_text">Изтрий</string>
+</resources>
